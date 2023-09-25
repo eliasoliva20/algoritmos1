@@ -1,5 +1,6 @@
 Proceso paresImparesMultiplos
-	definir n, cantidad, cont, mult, suma, prom Como Entero;
+	definir n, cantidad, cont, mult, suma Como Entero;
+	Definir prom Como Real;
 	n<-0;
 	cont<-0;
 	mult<-1;
@@ -32,6 +33,7 @@ Proceso paresImparesMultiplos
 	FinMientras
 	Escribir "el producto de los numeros menores a 25 es, ", mult;
 	Escribir "el suma de los numeros impares mayores a 16 son, ", suma;
-	Escribir "el promedio de los numeros en multiplos de 4 es, ", prom2;
+	Escribir "el promedio de los numeros en multiplos de 4 es, ", prom;
+	
 	
 FinProceso
